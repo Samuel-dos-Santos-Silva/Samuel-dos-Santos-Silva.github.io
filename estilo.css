@@ -1,0 +1,198 @@
+html, body{
+    margin: 0%;
+}
+#imagem_fundo{
+    background: url(img/fundo.jpg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo{
+    color: white;
+    padding-top: 20%;
+    font-size: 60px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px black;
+}
+#subtitulo{
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px black;
+}
+#acao{
+    color: white;
+    border: 4px white solid;
+    padding: 10px 20px 10px 20px ;   
+    text-decoration: none;
+    border-radius: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px black;
+    
+    
+}
+.icone{
+    width: 80px;
+}
+#projeto{
+    background-color: #f7f7f7;
+    padding: 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#objetivos{
+    padding: 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    
+}
+#paises{
+    padding: 20px;
+    background-color: #f7f7f7;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.imgp{
+    width: 70%;
+    height: 25%%;
+}
+
+#sobre{
+    background-color: white;
+    padding: 20px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.coluna2{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 15%;
+}
+.coluna3{
+    float: left;
+    padding: 0 2%;
+    position: relative;
+    width: 29%;
+}
+#imgs{
+    width: 90%;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo{
+    width: 50px;
+    position: absolute;
+    top: 6px;
+    margin-left: 2%;
+}
+#menu{
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    margin-top: 0px;
+    
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+li:hover{
+    background-color: teal;
+}
+footer{
+background-color: teal;
+color: white;
+float: left;
+width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#ab{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+    .coluna{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+
+    }
+    #logocel{
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 0px;
+        transform: translateX(-50%);
+    }
+    #titulo{
+        font-size: 25px;
+    }
+    #subtitulo{
+        font-size: 18px;
+    }
+    #imagem_fundo{
+        height: 50%;
+        
+    }
+    #xyz{
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #sds{
+        font-size: 13px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+}
+
+
+  
+ 
+    
+
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
